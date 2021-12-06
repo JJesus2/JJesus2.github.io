@@ -1,77 +1,21 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <title> My Blog </title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-            * {
-                box-sizing: border-box;
-            }
+<html lang="en">
 
-            body {
-                margin: 0;
-                font-family: Arial, Helvetica, sans-serif;
-            }
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliseo's Blog</title>
 
-            .container { 
-                padding: 64px;
-            }
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
-            .row:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
+<body>
 
-            .column-66 {
-                float: left;
-                width: 66.66666%;
-                padding: 20px;
-            }
-
-            .column-33 {
-                float: left;
-                width: 33.33333%;
-                padding: 20px;
-            }	   
-
-            .large-font {
-                font-size: 40px;
-            }
-
-            .xlarge-font {
-                font-size: 64px;
-            }
-
-            .button {
-                border: none;
-                color: white;
-                padding: 14px 28px;
-                font-size: 16px;
-                cursor: pointer;
-                background-color: #04aa6d;
-            }
-
-            img {
-                display: block;
-                height: auto;
-                max-width: 100%;
-            }
-
-            @media screen and (max-width: 1000px){
-                .column-66, .column-33 {
-                    width: 100%;
-                    text-align: center;
-                }
-                img {
-                    margin: auto;
-                }
-            }
-        </style>
-    </head>
-    <body>
-        <div style="text-align: center;">
+  <!-- HEADER -->
+  <header>
+    <div class="shadow-sm rounded">
+      <div style="text-align: center;">
             <h2> My Little Nephew </h2>
             <p> By Jesus Negrete</p>
 		 <header>
@@ -80,38 +24,119 @@
 		   
 	    </header>
         </div>
+    </div>
+  </header>
 
-        <!--The app section begins here-->
-        <div class="container">
-            <div class="row">
-                <div class="column-66">
-                    <h1 class="xlarge-font"><b> Eliseo </b></h1>
-                    <p> I present to you my little nephew, Eliseo. He was born on June 14, 2020. He is a very funny baby and a fast learner. 
-			He likes to go to my room and makes a mess. He is intelligent because whenever he sees me in the kitchen
-			he runs to my room knowing that I left my door open, so he can go in. He loves attention and he loves us and we love him back.
-                </div>
-                <div class="column-33">
-                    <img src="IMG_3831.jpeg" width="335" height="471">
-                </div>
+  <!-- MAIN -->
+  <main class="pt-3">
+    <div class="container">
+      <div class="row">
+
+<!-- Eliseo -->
+
+        <div class="col-md-9">
+          <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
+            <img src="IMG_3831.jpeg" width="335" height="200">
+            <div class="card-body d-flex flex-column align-items-start">
+             
+              <h3 class="card-title mb-0">Eliseo</h3>
+              <p class="card-text mb-auto">
+                I present to you my little nephew, Eliseo. He was born on June 14, 2020. He is a very funny baby and a fast learner. He likes to go to my room and makes a mess. He is intelligent because whenever he sees me in the kitchen he runs to my room knowing that I left my door open, so he can go in. He loves attention and he loves us and we love him back.
+              </p>
             </div>
-        </div>
-        <!--The middle sectoin begins here-->
-        <div class="container" style="background-color: #f1f1f1;">
-            <div class="row">
-                <div class="column-33">
-                    <img src="IMG_3960.gif"  width= "335" height="471">
-                </div>
-                <div class="column-66">
-                    <h1 class="xlarge-font"><b>Copycatter</b></h1>
-                        <p>He's also a imitator, for example, he sees where we throw away the trash,
-                           so when we give him a box to throw away he knows where exactly to go.
-			   Whenever he sees someone waving at him, he waves back. He would
-  			   start to dance if he see someone dancing, he would scream if somebody else
-			   screams, and he would clap his hands if he see someone clapping their hands.</p>
-                </div>
+          </div>
+
+<!-- Copycater Section -->
+
+          <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
+            <img class="card-img-left flex-auto d-none d-md-block" width="270" height="250" src="IMG_3960.GIF" alt="Card image cap">
+            <div class="card-body d-flex flex-column align-items-start">
+
+              <h3 class="card-title mb-0">Copycater</h3>
+              <p class="card-text mb-auto">
+                He's also a imitator, for example, he sees where we throw away the trash, so when we give him a box to throw away he knows where exactly to go. Whenever he sees someone waving at him, he waves back. He would start to dance if he see someone dancing, he would scream if somebody else screams, and he would clap his hands if he see someone clapping their hands.
+              </p>
             </div>
+          </div>
+
+<!-- Eliseo -->
+
+          <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
+            <img class="card-img-left flex-auto d-none d-md-block" width="270" height="250" src="IMG_2967.GIF" alt="Card image cap">
+            <div class="card-body d-flex flex-column align-items-start">
+
+              <h3 class="card-title mb-0">What type of person is he?</h3>
+              <p class="card-text mb-auto">
+                Eliseo likes to go shopping with my mom and sisters. He likes to visit some of my family members when its a holiday or celebration.
+		He gets really hyper if he eats anything that has sugar in it. Unfortunately, he does not like to listen to us, so he does the opposite 
+		of what we want him to do.
+              </p>
+            </div>
+          </div>
+
+<!-- /card-group -->
         </div>
-    </body>
+        <!-- /col-md-9 -->
+
+        <!-- ASIDE -->
+        <div class="col-md-3 mx-auto mb-3 text-center">
+          <div class="blog-sidebar p-2 shadow-sm rounded">
+            <!-- About -->
+            <h2>About</h2>
+            <img src="IMG_2563.jpg" class="img-fluid rounded-circle" width="150" alt="Eliseo Negrete">
+            <h4>Eliseo Negrete</h4>
+            <p>
+              Eliseo likes to eat and play around a lot. Most of the times, he wants to be outside with my family.
+            </p>
+          </div>
+        </div>
+        <!-- /blog-aside -->
+
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </main>
+
+<!-- FOOTER -->
+  <footer class="border-top">
+    <div class="container">
+      <!-- Logo - Posts - Nav -->
+      <div class="row py-3 text-light">
+
+<!-- Logo -->
+        <div class="col-md-4 ">
+          <img src="IMG_2562.jpeg" alt="Logo" width="100" height="100" class="img-fluid">
+        </div>
+
+<!-- About -->
+        <div class="col-md-4">
+          <h3>About</h3>
+          <p>
+            This is a personal blog where I put thoughts about Eliseo Negrete.
+          </p>
+        </div>
+
+<!-- Contact me -->
+        <div class="col-md-4">
+          <h3>Contact me</h3>
+          <p>
+            If you are interested in working with me or just want to say hello simply write on email.
+            <br><strong>Email: <a href="#" class="text-white">negrete.jesusjr@gmail.com</a></strong>
+          </p>
+        </div>
+     </div>
+
+<!-- /row -->
+
+<!-- Copyright -->
+      <div class="row py-3 d-flex justify-content-center  border-top">
+      </div>
+
+    </div>
+    <!-- /container -->
+  </footer>
+
+</body>
+
 </html>
-
-
